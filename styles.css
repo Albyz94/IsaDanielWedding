@@ -19,6 +19,10 @@ li a {
     color: rgb(51, 32, 3);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .main-cont {
    height: 100vh;
    display: grid;
@@ -75,6 +79,16 @@ li a {
     animation-name: titolo;
     animation-duration: 5s;
     text-align: center;
+}
+
+.lang{
+    margin-top: 10%;
+    text-decoration: underline;
+}
+
+.lang:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 @keyframes titolo {
