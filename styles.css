@@ -1,0 +1,422 @@
+body {
+    background-color: rgb(255, 217, 168);
+    margin: 0;
+    /* font-family: "Dancing Script", cursive; */
+    font-family: "Luxurious Script", cursive;
+    /* font-family: "Waterfall", cursive; */
+    /* font-family: "Qwitcher Grypen", cursive; */
+    /* font-family: "Island Moments", cursive; */
+    /* font-family: "Baskervville SC", serif; */
+    color: rgb(51, 32, 3);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(55, 94, 131);
+}
+
+li a {
+    color: rgb(51, 32, 3);
+}
+
+.main-cont {
+   height: 100vh;
+   display: grid;
+   grid-template-rows: 1fr 5fr;
+   justify-content: center;
+   
+}
+
+.main-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: "Baskervville SC", serif;
+}
+
+.qrcode {
+    margin-top: -50%;
+}
+
+.qrz, .qrpp {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.par-info {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    font-family: "Baskervville SC", serif;
+    font-size: 18px;
+    gap: 10px;
+    margin-top: 10%;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.title, .paragraph, .f1{
+    animation-name: titolo;
+    animation-duration: 5s;
+    text-align: center;
+}
+
+@keyframes titolo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+.f1 {
+    max-width: 200px;
+}
+
+/* .leaf {
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 15s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+} */
+
+.l1 {
+    margin-top: -30%;
+    animation-name: l1;
+    margin-left: 20%;
+    animation-delay: 3s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l2 {
+    margin-top: -30%;
+    animation-name: l2;
+    margin-left: 20%;
+    animation-delay: 0s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l3 {
+    margin-top: -30%;
+    animation-name: l3;
+    margin-left: 33%;
+    animation-delay: 2s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l4 {
+    margin-top: -30%;
+    animation-name: l4;
+    margin-left: 41%;
+    animation-delay: 1s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l5 {
+    margin-top: -30%;
+    animation-name: l5;
+    margin-left: 50%;
+    animation-delay: 4s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l6 {
+    margin-top: -30%;
+    animation-name: l6;
+    margin-left: 78%;
+    animation-delay: 2.3s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l7 {
+    margin-top: -30%;
+    animation-name: l7;
+    margin-left: 93%;
+    animation-delay: 1.8s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l8 {
+    margin-top: -30%;
+    animation-name: l7;
+    margin-left: 73%;
+    animation-delay: 3.9s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l9 {
+    margin-top: -30%;
+    animation-name: l7;
+    margin-left: 23%;
+    animation-delay: 3.2s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+.l10 {
+    margin-top: -30%;
+    animation-name: l7;
+    margin-left: 43%;
+    animation-delay: .3s;
+    max-width: 30px;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    margin-top: -5%;
+    opacity: 0%;
+}
+
+
+@keyframes l1 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 3%;
+        transform: rotateY(180deg);
+        transform: rotateX(180deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l2 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 56%;
+        transform: rotateY(180deg);
+        transform: rotateX(90deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l3 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 12%;
+        transform: rotateY(180deg);
+        transform: rotateX(45deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l4 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 76%;
+        transform: rotateY(180deg);
+        transform: rotateX(180deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l5 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 21%;
+        transform: rotateY(180deg);
+        transform: rotateX(45deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l6 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 55%;
+        transform: rotateY(180deg);
+        transform: rotateX(90deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l7 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 92%;
+        transform: rotateY(180deg);
+        transform: rotateX(180deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l8 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    50% {
+        margin-left: 45%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 95%;
+        transform: rotateY(180deg);
+        transform: rotateX(90deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l9 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    30% {
+        margin-left: 65%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 24%;
+        transform: rotateY(180deg);
+        transform: rotateX(60deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+@keyframes l10 {
+    0% {
+        opacity: 0%;
+    }
+    5% {
+        opacity: 100%;
+    }
+    30% {
+        margin-left: 65%;
+    }
+    90% {
+        opacity: 0%;
+        margin-top: 80vh;
+        margin-left: 42%;
+        transform: rotateY(180deg);
+        transform: rotateX(60deg);
+    }
+    100% {
+        opacity: 0%;
+    }
+}
