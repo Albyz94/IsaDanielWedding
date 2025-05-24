@@ -81,6 +81,7 @@ a:hover {
     gap: 50px;
     text-decoration: none;
     color: var(color);
+    margin-top: 10%;
 }
 
 .itinerario {
