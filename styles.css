@@ -75,6 +75,18 @@ a:hover {
     text-align: center;
 }
 
+.hotel-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-decoration: none;
+    color: var(color);
+}
+
+.itinerario {
+    margin-top: 10%;
+}
+
 .title, .paragraph, .f1{
     animation-name: titolo;
     animation-duration: 5s;
